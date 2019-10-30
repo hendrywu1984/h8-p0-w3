@@ -1,6 +1,5 @@
 function mengelompokkanAngka(arr) {
     // you can only write your code here!
-
     var hasil = [];
     var hasil0 = [];
     var hasil1 = [];
@@ -9,13 +8,10 @@ function mengelompokkanAngka(arr) {
     for (var i = 0; i <= arr.length; i++) {
         if (arr[i] % 3 === 0) {
             hasil2.push(arr[i]);
-            //curr2++;
         } else if (arr[i] % 2 === 1) {
             hasil1.push(arr[i]);
-            //curr1++;
         } else if (arr[i] % 2 === 0) {
             hasil0.push(arr[i]);
-            //curr0++;
         }
     }
     
