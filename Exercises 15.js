@@ -6,10 +6,9 @@ function groupAnimals(animals) {
   var temp = [];
   var awal;
 
-  temp.push(animals[0]);
   awal = animals[0][0];
 
-  for (var i=1; i<animals.length; i++) {
+  for (var i=0; i<animals.length; i++) {
       if (awal === animals[i][0]) {
           temp.push(animals[i]);
       } else {
