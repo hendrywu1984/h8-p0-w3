@@ -2,14 +2,14 @@ function mengelompokkanAngka(arr) {
     // you can only write your code here!
     var hasil = [];
 
-    for (var i = 0; i < 3; i++){
-        hasil.push([]);
-    }
-
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] % 3 === 0) hasil[2].push(arr[i]);
-        else if (arr[i] % 2 === 1) hasil[1].push(arr[i]);
-        else if (arr[i] % 2 === 0) hasil[0].push(arr[i]);
+    for (var i = 0; i <= arr.length; i++) {
+        if (arr[i] % 3 === 0) {
+            hasil[2].push(arr[i]);
+        } else if (arr[i] % 2 === 1) {
+            hasil[1].push(arr[i]);
+        } else if (arr[i] % 2 === 0) {
+            hasil[0].push(arr[i]);
+        }
     }
 
     return hasil;
